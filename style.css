@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&family=Delicious+Handrawn&family=Jersey+10&family=Noto+Kufi+Arabic:wght@100..900&family=Noto+Sans+Malayalam:wght@100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik+Scribble&family=Rubik:ital,wght@0,300..900;1,300..900&family=Shadows+Into+Light&family=Workbench&display=swap');
+
+body{
+    scroll-behavior: smooth;
+}
+
+#clock h1{
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-size: 4em;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0;
+      letter-spacing: 2px;
+}
+
+/* for smaller screens below 700px */
+@media only screen and (max-width: 700px) {
+  body {
+    font-size: 1.8rem;
+  }
+}
+
+/*for smaller screens below 300px*/
+@media only screen and (max-width: 300px) {
+  body {
+    font-size: 1.6rem;
+  }
+}
+
+.tsk-ttl{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    font-size: 3em;
+    font-style: normal;
+}
+
+/* Item */
+
+.item-1 p{
+    color: white;
+    font-weight: bolder;
+    font-size: 3em;
+}
+.time{
+    width: 5em;
+    font-size: 1.5em;
+}
+.check{
+    width: 1.5em;
+    height: 1.5em;
+}
+.item-1{
+  border: 2px solid white;
+  padding: 10px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  background-image: url("images/1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+.item-1.checked {
+  border-color: green;
+  box-shadow: 0 0 10px green;
+}
+
+
+/*  Item 2 */
+
+.item-2.checked {
+  border-color: green;
+  box-shadow: 0 0 10px green;
+}
+
+.item-2{
+  border: 2px solid white;
+  padding: 10px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  background-image: url("images/2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.item-2 p{
+  color: white;
+  font-weight: bolder;
+  font-size: 3em;
+}
+
+/* Item 3 */
+.item-3.checked {
+  border-color: green;
+  box-shadow: 0 0 10px green;
+}
+
+.item-3{
+  border: 2px solid white;
+  padding: 10px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  background-image: url("images/3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.item-3 p{
+  color: white;
+  font-weight: bolder;
+  font-size: 3em;
+}
+
+/* Item 4 */
+
+.item-4.checked {
+  border-color: green;
+  box-shadow: 0 0 10px green;
+}
+
+.item-4{
+  border: 2px solid white;
+  padding: 10px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  background-image: url("images/4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.item-4 p{
+  color: white;
+  font-weight: bolder;
+  font-size: 3em;
+}
+
+/* Item 5 */
+
+.item-5.checked {
+  border-color: green;
+  box-shadow: 0 0 10px green;
+}
+
+.item-5{
+  border: 2px solid white;
+  padding: 10px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  background-image: url("images/5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.item-5 p{
+  color: white;
+  font-weight: bolder;
+  font-size: 3em;
+}
+
+/* Item 6 */
+
+.item-6.checked {
+  border-color: green;
+  box-shadow: 0 0 10px green;
+}
+
+.item-6{
+  border: 2px solid white;
+  padding: 10px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  background-image: url("images/6.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.item-6 p{
+  color: white;
+  font-weight: bolder;
+  font-size: 3em;
+}
